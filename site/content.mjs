@@ -55,3 +55,16 @@ Financial period: not supplied by this fixture</pre><p>Reordering does not creat
  } }
 ];
 export const tool = null;
+
+export const editorial = {
+  "author": {
+    "en": "kolmo2026 maintenance team",
+    "ja": "kolmo2026保守チーム"
+  },
+  "published": "2026-11-03",
+  "modified": "2026-11-04",
+  "changeNote": {
+    "en": "Editorial update: maintenance attribution, publication dates and same-site related reading added; workflow examples unchanged.",
+    "ja": "編集上の更新：保守者の明示、公開・更新日、同サイトの関連記事を追加しました。作業例は変更していません。"
+  }
+};

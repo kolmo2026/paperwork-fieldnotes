@@ -37,6 +37,8 @@ Build and static page checks; no financial or PDF calculation engine in this rep
 
 Source: `site/` and `scripts/`. The independent static site is built to `docs/`, with English/Japanese equivalents, canonical/hreflang links, sitemap, robots, CNAME and .nojekyll. Its hostname is https://blog.optmodel.com. Each repository is self-contained; no sibling directory is needed to build.
 
+GitHub hosts the public source code; the live educational website is deployed on Vercel. Legacy GitHub Pages settings and compatibility files are retained, not the current production hosting choice.
+
 ## Limits
 
 Educational synthetic workflows, not independent reviews or verified financial evidence. The blog contains no upload endpoint, backend, analytics or login. Product-site tutorials are linked, not copied.
