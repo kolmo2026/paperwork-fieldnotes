@@ -35,21 +35,19 @@ npm run build
 
 Build and static page checks; no financial or PDF calculation engine in this repository.
 
-Source: `site/` and `scripts/`. The independent static site is built to `docs/`, with English/Japanese equivalents, canonical/hreflang links, sitemap, robots, CNAME and .nojekyll. Its hostname is https://blog.optmodel.com. Each repository is self-contained; no sibling directory is needed to build.
+Source: `site/` and `scripts/`. The static site is built to `docs/`, with English/Japanese equivalents, canonical/hreflang links, sitemap, robots, CNAME and .nojekyll. Its hostname is https://blog.optmodel.com. Each repository is self-contained; no sibling directory is needed to build.
 
-GitHub hosts the public source code; the live educational website is deployed on Vercel. Legacy GitHub Pages settings and compatibility files are retained, not the current production hosting choice.
 
 ## Limits
 
-Educational synthetic workflows, not independent reviews or verified financial evidence. The blog contains no upload endpoint, backend, analytics or login. Product-site tutorials are linked, not copied.
+Educational workflows using synthetic examples. The blog contains no upload endpoint, backend, analytics or login. Product-site tutorials are linked, not copied.
 
-## Privacy and related products
+## Privacy and tools
 
 No account, analytics, backend or document-upload endpoint. Calculations/file operations run locally. Public site assets still load over the network; browser dependencies are bundled rather than fetched from a runtime CDN. JSON exports are plain text; review filenames and assumptions before sharing.
 
 [Eqvero](https://eqvero.com/), [KolmoPDF](https://www.kolmopdf.com/) and [KomoPDF](https://komopdf.com/) are related products.
 
-Maintained via GitHub account **kolmo2026**, by the same maintenance team developing tools for the Eqvero/KolmoPDF/KomoPDF ecosystem. This is not an independent review or third-party endorsement. KolmoPDF's cloud services upload documents and are distinct from these local tools.
 
 ## License
 
